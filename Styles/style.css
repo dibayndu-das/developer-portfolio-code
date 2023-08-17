@@ -17,12 +17,15 @@
 }
 .header{
     background-color: #fff8f3;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right ;
 }
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 0 50px 200px;
 }
 .nav-tittle{
     font-weight: 800px;
