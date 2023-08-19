@@ -17,9 +17,9 @@
 }
 .header{
     background-color: #fff8f3;
-    background-image: url(../images/header_bg.png);
+    background-image: url(../images/header_bg.png), url(../images/developer.png);
     background-repeat: no-repeat;
-    background-position: bottom right ;
+    background-position: bottom right, left ;
 }
 nav{
     display: flex;
@@ -58,4 +58,33 @@ nav li{
     color: #757575;
     font-size: 18px;
     margin-bottom: 20px;
+}
+/*Main start */
+
+.main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section{
+    margin: 150px;
+    margin-top: 130px;
+}
+/* About Section start */
+
+.about{
+background: #FFF8F3;
+border-radius: 10px;
+padding: 130px 150px;
+}
+.section-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+}
+.section-description{
+    color: #757575 ;
+    font-size: 18px;
+    margin-bottom: 30px;
 }
