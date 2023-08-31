@@ -213,3 +213,78 @@ padding: 80px 150px;
     margin-bottom: 20px;
     color: #FD6E0A;
 }
+.hide{
+    display: none;
+}
+
+
+
+
+@media screen and (max-width:576px) {
+    nav,
+    nav ul,
+    .banner,
+    .skills-container, 
+    .resume-content, 
+    .contact{
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+    nav{
+        padding: 25px 5px;
+    }
+    .banner{
+        margin: 0;
+        width: 375px;
+    }
+    .banner-sub-tittle{
+        margin-top: 20px;
+    }
+    .banner-tittle{
+        font-size: 70px;
+    }
+    .banner-description{
+        padding: 10px 10px;
+    }
+    .banner img, .banner-content {
+        width: 100%;
+    }
+
+    .skill{
+        padding: 10px;
+    }
+    .btn-primary{
+       padding: 5px 5px;
+    }
+  .about{
+    padding: 10px 10px;
+    text-align: center;
+    
+  }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .section-title {
+        font-size: 40px;
+        margin-top: 20px;
+    }
+    .about, 
+    .contact, 
+    .contact input[type="text"], input[type="email"], textarea {
+        padding: 10px 10px;
+        margin: auto;
+        width: 90%;
+    }
+    .form input, textarea{
+        margin-top: 5%;
+    }
+    .footer h5{
+        margin-top: 20px;
+        padding: 6px 10px 10px;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+    
+}
